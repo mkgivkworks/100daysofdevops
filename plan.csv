@@ -1,0 +1,101 @@
+Day,Topic,Hands-on Exercise,Python DSA Challenge,CKA Prep Task,Free Resources
+1,Introduction to DevOps and CI/CD basics,Set up GitHub repo and create a basic CI pipeline using GitHub Actions (build and test on commit),Python lists basics (basic list operations),,https://docs.github.com/en/actions; https://realpython.com/python-lists-tuples/
+2,Version Control with Git (branching, merging),Fork, clone, commit, merge branches, resolve conflicts,,https://www.freecodecamp.org/news/git-and-github-for-beginners/
+3,Docker Fundamentals,Build and run simple Docker containers, understand images, containers, and Docker Hub,,https://docs.docker.com/get-started/
+4,Continuous Integration with Jenkins,Install Jenkins on local VM or cloud, create pipeline jobs building a sample app,,https://www.jenkins.io/doc/tutorials/build-a-java-app-with-maven/
+5,Infrastructure as Code with Terraform Introduction,Write Terraform config to provision a simple VM on AWS Free Tier,,https://learn.hashicorp.com/tutorials/terraform/aws-build
+6,Basic Linux Command Line for DevOps,Practice file operations, permissions, process management,,https://training.linuxfoundation.org/training/introduction-to-linux/
+7,Python DSA Challenge: Implement Stack using Python list (push, pop, peek),,Implement Stack using Python list,,https://www.programiz.com/dsa/stack
+8,Container Orchestration with Kubernetes Introduction,Set up Minikube/local cluster, deploy a simple app,,Setup Minikube and deploy initial app,https://kodekloud.com/courses/cka-certification-course-certified-kubernetes-administrator
+9,Kubernetes Core Concepts – Pods and Services,Create pods and expose services, experiment with labels and selectors,,Pods & Services labs from KodeKloud,https://kubernetes.io/docs/concepts/workloads/pods/
+10,CI/CD Advanced – Testing Automation with Jenkins Pipelines,Implement automated testing stages in Jenkins pipeline,,,
+11,Configuration Management with Ansible Basics,Install Ansible, write playbooks to automate package installs,,https://www.ansible.com/resources/get-started
+12,Monitoring Fundamentals – Prometheus and Grafana Setup,Deploy Prometheus and Grafana in Kubernetes, monitor app metrics,,https://prometheus.io/docs/prometheus/latest/getting_started/
+13,Cloud Services Overview (AWS and GCP Free Tiers),Create accounts, explore console, launch basic compute instances,,https://aws.amazon.com/free/; https://cloud.google.com/free
+14,Python DSA Challenge: Implement Queue in Python with two stacks,,Implement Queue using two stacks,,https://leetcode.com/problems/implement-queue-using-stacks/
+15,Secret Management and ConfigMaps in Kubernetes,Create and use ConfigMaps and Secrets in deployments,,Secrets and ConfigMaps labs from KodeKloud,https://kubernetes.io/docs/concepts/configuration/secret/
+16,Helm Package Manager Basics,Install Helm, deploy an app with Helm charts, customize values,,https://helm.sh/docs/intro/quickstart/
+17,Automating Cloud Infrastructure Updates with Terraform,Modify infrastructure, implement Terraform state management,,https://learn.hashicorp.com/tutorials/terraform/state
+18,Logging and Troubleshooting in Kubernetes,Use kubectl logs, describe, exec to troubleshoot pods,,Troubleshooting labs from KodeKloud,https://kubernetes.io/docs/tasks/debug/
+19,CI/CD with GitLab Pipelines,Configure GitLab runner, build CI/CD workflows for a repo,,https://docs.gitlab.com/ee/ci/
+20,Python DSA Challenge: Recursive algorithms basics (factorial, Fibonacci),,Recursive algorithms basics,,https://realpython.com/python-thinking-recursively/
+21,Kubernetes Deployments & ReplicaSets,Deploy and scale applications with Deployments,,KodeKloud labs on Deployments,https://kubernetes.io/docs/concepts/workloads/controllers/deployment/
+22,Kubernetes StatefulSets,Deploy a Stateful app (e.g., MySQL) in Kubernetes,,StatefulSets labs from KodeKloud,https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/
+23,Advanced Docker Networking,Create custom Docker networks, connect multi-container apps,,,https://docs.docker.com/network/
+24,Python DSA Challenge: Binary Search,,Implement Binary Search in Python,,https://leetcode.com/problems/binary-search/
+25,Kubernetes DaemonSets,Deploy logging agents with DaemonSets,,DaemonSets labs from KodeKloud,https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/
+26,Kubernetes Jobs and CronJobs,Schedule jobs with Kubernetes CronJobs,,Jobs & CronJobs labs from KodeKloud,https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/
+27,AWS IAM for DevOps,Create users, groups, and policies in AWS IAM,,,https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html
+28,Advanced CI/CD – Multi-branch Pipelines,Set up branch-based pipeline triggers in Jenkins or GitLab,,,https://www.jenkins.io/doc/book/pipeline/multibranch/
+29,Python DSA Challenge: QuickSort,,Implement QuickSort in Python,,https://www.geeksforgeeks.org/quick-sort/
+30,Kubernetes Networking – Services Deep Dive,Explore ClusterIP, NodePort, LoadBalancer services,,Network services labs from KodeKloud,https://kubernetes.io/docs/concepts/services-networking/service/
+31,Kubernetes Network Policies,Create and apply NetworkPolicy to isolate pods,,Network Policy labs from KodeKloud,https://kubernetes.io/docs/concepts/services-networking/network-policies/
+32,Storage in Kubernetes – Persistent Volumes,Create PVs and PVCs, mount them in pods,,Storage labs from KodeKloud,https://kubernetes.io/docs/concepts/storage/persistent-volumes/
+33,Kubernetes Storage – Stateful Applications with PVCs,Deploy MySQL or PostgreSQL with PVCs,,CKA Storage scenarios practice,https://kubernetes.io/docs/tasks/run-application/run-single-instance-stateful-application/
+34,Python DSA Challenge: Merge Sort,,Implement Merge Sort in Python,,https://www.geeksforgeeks.org/merge-sort/
+35,Kubernetes Ingress Basics,Deploy NGINX ingress controller and configure ingress resources,,Ingress labs from KodeKloud,https://kubernetes.io/docs/concepts/services-networking/ingress/
+36,Terraform VPC Deployment,Use Terraform to create a custom VPC in AWS,,,
+37,Kubernetes RBAC Basics,Create roles, rolebindings, and test permissions,,Security labs from KodeKloud,https://kubernetes.io/docs/reference/access-authn-authz/rbac/
+38,Ansible Advanced Playbooks,Use conditionals, loops, handlers in Ansible,,,
+39,Python DSA Challenge: Hash Map Implementation,,Implement basic hash table in Python,,https://realpython.com/python-hash-table/
+40,Kubernetes Service Accounts,Create custom service accounts for pods,,CKA security scenario practice,https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/
+41,Advanced Helm – Custom Charts,Build your own Helm Chart and package it,,,
+42,Docker Security Scanning,Scan images with Trivy and Docker scan,,,
+43,Kubernetes Secrets Management with Vault,Integrate HashiCorp Vault with Kubernetes,,,
+44,Python DSA Challenge: BFS Graph Traversal,,Implement BFS in Python,,https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/
+45,Kubernetes Resource Management,Set resource requests/limits and test pod eviction,,,
+46,Terraform Modules,Create reusable Terraform modules for infrastructure,,,
+47,Kubernetes Cluster Upgrade Lab,Simulate upgrading Kubernetes cluster (minikube or kind),,CKA upgrade scenario,https://kubernetes.io/docs/tasks/administer-cluster/cluster-upgrade/
+48,Ansible Dynamic Inventory,Use AWS or GCP inventory plugin with Ansible,,,
+49,Python DSA Challenge: DFS Graph Traversal,,Implement DFS in Python,,https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/
+50,Kubernetes etcd Backup & Restore,Perform etcd backup/restore,,CKA Backup/Restore labs,https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/
+51,Advanced CI/CD – Blue-Green Deployment,Implement blue-green strategy on Kubernetes with CI/CD,,,
+52,Kubernetes High Availability Concepts,Understand HA setup, simulate node failures,,,
+53,ELK Stack in Kubernetes,Deploy Elasticsearch + Kibana + Logstash for logs,,,
+54,Python DSA Challenge: Heap Implementation,,Implement Max Heap in Python,,https://www.geeksforgeeks.org/heap-data-structure/
+55,Kubernetes Troubleshooting Scenarios,Simulate and fix pod scheduling failures,,CKA Troubleshooting labs,https://kubernetes.io/docs/tasks/debug/
+56,Taint & Tolerations in Kubernetes,Apply taints to nodes and schedule tolerant pods,,,
+57,Kubernetes Affinity & Anti-Affinity,Set pod placement rules,,,
+58,Terraform Cloud/Enterprise Intro,Store state in Terraform Cloud,,,
+59,Python DSA Challenge: Priority Queue,,Implement Priority Queue in Python,,https://docs.python.org/3/library/queue.html
+60,GCP IAM for DevOps,Create service accounts, roles, permissions,,,
+61,Kubernetes API Access,Use kubectl proxy and API calls,,,
+62,Prometheus Alerting Rules,Create alerts and integrate with Alertmanager,,,
+63,Python DSA Challenge: Linked List Implementation,,Implement Singly Linked List in Python,,https://www.geeksforgeeks.org/linked-list-set-1-introduction/
+64,Kubernetes Audit Logs,Enable and explore audit logs,,,
+65,CI/CD with ArgoCD,Install and deploy GitOps pipeline with ArgoCD,,,
+66,Kubernetes Admission Controllers,Test PodSecurityPolicy or OPA Gatekeeper,,,
+67,Node Maintenance in Kubernetes,Drain nodes and reschedule pods,,,
+68,Python DSA Challenge: Doubly Linked List,,Implement Doubly Linked List in Python,,https://www.geeksforgeeks.org/doubly-linked-list/
+69,Terraform Workspaces,Use workspaces for multiple environments,,,
+70,Kubernetes Custom Resources,Create a CRD and custom controller (Kubebuilder basic),,,
+71,Service Mesh – Istio Basics,Install Istio and deploy sample app,,,
+72,Kubernetes Canary Deployments,Use Istio or Argo Rollouts for canary release,,,
+73,Python DSA Challenge: Detect Cycle in Linked List,,Implement cycle detection algorithm,,https://leetcode.com/problems/linked-list-cycle/
+74,Kubernetes Backup with Velero,Backup/restore cluster resources and volumes,,,
+75,Kubernetes Metric Server & HPA,Install metrics server, configure HPA for scaling,,,
+76,CI/CD Pipeline Final Project Phase 1,Start building final integrated pipeline,,,
+77,Python DSA Challenge: Graph AdjList Implementation,,Implement Graph as adjacency list,,https://www.programiz.com/dsa/graph-adjacency-list
+78,Advanced Monitoring Dashboards,Custom Grafana dashboards for app metrics,,,
+79,Kubernetes Troubleshooting Final Lab 1,Complex troubleshooting scenario with multiple issues,,,
+80,CloudFormation for DevOps,Replicate a Terraform config in AWS CloudFormation,,,
+81,Capstone Project – Kubernetes Microservices Setup,Set up multi-service app in Kubernetes,,,
+82,Capstone Project – CI/CD Integration,Integrate Jenkins/GitLab CI/ArgoCD with project,,,
+83,Python DSA Challenge: Topological Sort,,Implement Topological Sort,,https://www.geeksforgeeks.org/topological-sorting/
+84,Capstone Project – Monitoring & Logging,Add Prometheus, Grafana, ELK stack to project,,,
+85,Capstone Project – Security & RBAC,Configure Role-based access and secrets mgmt,,,
+86,Capstone Project – Scaling & Resilience,Implement autoscaling and simulate node crashes,,,
+87,Kubernetes CKA Mock Exam 1,Timed practice exam from KodeKloud,,KodeKloud CKA Mock Exam 1,
+88,Python DSA Challenge: Dijkstra’s Algorithm,,Implement Dijkstra’s algorithm in Python,,https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm/
+89,Kubernetes CKA Mock Exam 2,Second timed practice exam from KodeKloud,,KodeKloud CKA Mock Exam 2,
+90,Kubernetes Disaster Recovery Drill,Simulate cluster failure and recovery,,,
+91,Capstone Project – GitOps Finalization,Implement final GitOps workflow with ArgoCD,,,
+92,Kubernetes API Aggregation Layer,Test extending Kubernetes API,,,
+93,Python DSA Challenge: Kruskal’s Algorithm,,Implement Kruskal’s MST algorithm,,https://www.geeksforgeeks.org/kruskals-algorithm/
+94,Kubernetes Final Troubleshooting,All-in-one troubleshooting challenge,,,
+95,CKA Certification Review Day 1,Review core concepts: Networking, Storage, Security,,,
+96,CKA Certification Review Day 2,Review Deployments, Scheduling, Cluster Maintenance,,,
+97,CKA Certification Review Day 3,Full practice on KodeKloud Lightning Labs,,,
+98,CKA Certification Review Day 4,Do final timed mock exam and review weak areas,,,
+99,Capstone Project – Documentation & Automation Scripts,Document infrastructure, write helper scripts,,,
+100,Final Day – Present/Submit Project & Take CKA Exam,Complete certification exam and wrap up,,,
